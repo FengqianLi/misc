@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLOCKID	timer.c	7;"	d	language:C	file:
+SIG	timer.c	8;"	d	language:C	file:
+errExit	timer.c	10;"	d	language:C	file:
+handler	timer.c	/^static void handler(int sig, siginfo_t * si, void *uc)$/;"	f	language:C	file:	signature:(int sig, siginfo_t * si, void *uc)
+main	timer.c	/^int main(int argc, char *argv[])$/;"	f	language:C	signature:(int argc, char *argv[])
+print_siginfo	timer.c	/^static void print_siginfo(siginfo_t * si)$/;"	f	language:C	file:	signature:(siginfo_t * si)
